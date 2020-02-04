@@ -30,7 +30,7 @@ export default class Inputs extends React.Component {
         <span>Country name: </span>
         <input
           type="text"
-          placeholder="Search…"
+          placeholder="Search…......"
           onChange={this.onInputChange}
           onKeyDown={e => this.onEnter(e)}
           ref={node => (this.inputNode = node)}
